@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  background: linear-gradient(135deg, #0a4a9e,#267c89);
+  min-height: 100vh;
+}
+
+.board_column {
+  background: #101204;
+  width:272px;
+}
+
+.board_column_header input {
+  color: #919ba2;
+}
+
+.board_column_create {
+  background-color: #ffffff3d;
+  color:#e8eff4;
+  width:272px;
+}
+
+.board_column_create_modal {
+  background-color: #101204a1;
+}
+
+.modal_dialog {
+  width:500px;
+}
+
+input:disabled {
+  background:none !important;
+}
